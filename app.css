@@ -11,6 +11,8 @@
 body,html{
     margin: 0%;
     padding: 0%;
+    width: 950px/1200px;
+    margin: 30px/1200px;
 }
 
 p,a,h1,h2,h3,li, span {
@@ -54,6 +56,8 @@ p,a,h1,h2,h3,li, span {
     display: flex;
     justify-content: center;
     align-items: center;  
+    
+
 }
 
 .container .right-box .card {
@@ -78,7 +82,7 @@ p,a,h1,h2,h3,li, span {
 }
 
 .container .right-box .card .p {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     color: var(--dark-color);
 }
@@ -124,6 +128,13 @@ button.btn {
     padding: 6px 16px;
     border-radius: 100px;
     font-weight: bold;
+    cursor: pointer;
+    box-shadow: gray;
+    transition: ease-out 0.3s;
+}
+
+button.btn:hover {
+    box-shadow: inset 300px 0 0 0 silver;
 }
 
 button.block {
